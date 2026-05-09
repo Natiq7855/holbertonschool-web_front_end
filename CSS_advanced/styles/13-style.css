@@ -38,21 +38,21 @@ body {
 
 }
 
-a[href]{
+a[href]:link {
     font-family: var(--font-family-base);
     color: #161616;
     text-decoration: none;
 }
 
-a[href]:visited{
+a[href]:visited {
     font-style: italic;
 }
 
-a[href]:hover{
+a[href]:hover {
     text-decoration: underline;
 }
 
-a[href]:active{
+a[href]:active {
     background-color: var(--color-light-grey);
 }
 
