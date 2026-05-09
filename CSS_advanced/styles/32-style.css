@@ -377,9 +377,13 @@ ul.row {
   transition-property: color, background-color;
 }
 
-.card-work:hover .card-image img {
+.card-work:hover .card-image {
   transform: scale(1.2);
   transition: var(--transition-duration) var(--transition-cubic-bezier);
+}
+
+.card-work .card-image {
+  overflow: hidden;
 }
 
 .card-work:hover .card-outer {
