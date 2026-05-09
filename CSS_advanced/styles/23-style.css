@@ -190,8 +190,21 @@ ul.row {
   color: var(--nav-item-link-hover);
 }
 
+.social-link{
+    display: block;
+}
+
+.social-link svg {
+    fill: var(--text-color);
+}
+
 .footer {
   padding: var(--footer-padding);
+}
+
+.footer-address{
+    color: var(--text-color);
+
 }
 
 .footer-copyright{
